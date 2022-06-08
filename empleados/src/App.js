@@ -5,6 +5,7 @@ import {Fragment, useState} from 'react';
 import { Container, Row, Col, Form} from 'react-bootstrap';
 import Formulario from './components/Formulario';
 import Empleado from './components/Empleado';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -26,16 +27,16 @@ function App() {
     <Fragment>
       <Container>
         <Row>
-          <Col>Mis empleados</Col>
+          <Col><h4>Agregar empleado</h4></Col>
         </Row>
         <Row>
           <Col>
-            Formulario de mis empleados
+            <h5>Formulario de ingreso</h5>
             <Formulario agregarEmpleado={agregarEmpleado}/>
           </Col>
 
           <Col>
-            Listado de empleados
+            <h4>Listado de empleados</h4>
             {
               personal.map(
                 empleado => 

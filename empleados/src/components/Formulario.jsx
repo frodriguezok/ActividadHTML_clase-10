@@ -55,7 +55,7 @@ const Formulario = ({agregarEmpleado}) => {
         <Fragment>
             <Form onSubmit={submitForm}>
             <Form.Group>
-                <Form.Label>Nombre y apellido</Form.Label>
+                <Form.Label>Nombre y apellido:</Form.Label>
                 <Form.Control
                     type="text" 
                     placeholder="Nombre completo del empleado"
@@ -66,7 +66,7 @@ const Formulario = ({agregarEmpleado}) => {
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Edad</Form.Label>
+                <Form.Label>Edad:</Form.Label>
                 <Form.Control
                     type="number" 
                     placeholder="Edad del empleado"
@@ -77,7 +77,7 @@ const Formulario = ({agregarEmpleado}) => {
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>DNI</Form.Label>
+                <Form.Label>DNI:</Form.Label>
                 <Form.Control
                     type="text" 
                     placeholder="DNI del empleado"
@@ -88,7 +88,7 @@ const Formulario = ({agregarEmpleado}) => {
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Nacionalidad</Form.Label>
+                <Form.Label>Nacionalidad:</Form.Label>
                 <Form.Control
                     type="text" 
                     placeholder="Nacionalidad del empleado"
@@ -100,7 +100,7 @@ const Formulario = ({agregarEmpleado}) => {
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Cargo</Form.Label>
+                <Form.Label>Cargo:</Form.Label>
                 <Form.Control 
                     type="text" 
                     placeholder="Cargo a ocupar en la empresa"
@@ -110,8 +110,8 @@ const Formulario = ({agregarEmpleado}) => {
                 />
         
             </Form.Group>
-
-            <Button variant="primary" type="submit">
+            <br></br>
+            <Button variant="dark" type="submit">
                 Agregar empleado
             </Button>
             </Form>
